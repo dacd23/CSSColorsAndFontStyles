@@ -1,0 +1,215 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0 15%;
+    text-align: center;
+}
+/*styling the body*/
+.container {
+    border: 3px groove salmon;
+    border-radius: 1%;
+    padding: 12px; 
+    margin: 12px auto;
+    overflow: hidden;
+}
+/*color section style*/
+.container-color {
+    width: 100%;
+    
+}
+/*individual color style*/
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px 10px;
+    min-height: 100px;
+    justify-content: space-evenly;
+    border-radius: 15%;
+}
+
+.cool-blue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.mint-green {
+    background-color: #4fe0b0;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
+
+.deepskyblue {
+    background-color: #00688B;
+}
+
+.truegreen {
+    background-color: #00AF33;
+}
+
+.turquoise {
+    background-color: #00C5CD;
+}
+
+.gray {
+    background-color: #979191;
+}
+
+.gummiyellow {
+    background-color: #FBDB0C;
+}
+
+.cadmiumredlight {
+    background-color: #FF030D;
+}
+
+.darkorange {
+    background-color: #FF8600;
+}
+
+.peachpuff {
+    background-color: #FFADB9;
+}
+
+.seashell {
+    background-color: #FFF5EE;
+}
+
+.cinnamon {
+    background-color: #AA6600;
+}
+
+.turnip {
+    background-color: #A74CAB;
+}
+
+.mediumwood {
+    background-color: #A68064;
+}
+
+.avocado {
+    background-color: #A2C257;
+}
+
+.lightblue {
+    background-color: #9AC0CD;
+}
+
+.marsorange {
+    background-color: #964514;
+}
+
+.coral {
+    background-color: #8B3E2F;
+}
+
+.bluemist {
+    background-color: #82CFFD;
+}
+
+/*fonts style section*/
+
+
+.font-container {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: stretch; 
+    margin: 0 5px; 
+    height: auto; 
+}   
+
+
+.font-panel { 
+    flex: 40%;
+    width: auto;
+    color: black;
+    border: 1px groove rgb(247, 13, 13);
+    height: auto;
+    margin: 0.5em;
+    align-items: center; 
+}
+
+
+
+.font-label {
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold { 
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.langar {
+    font-family: 'langar', 'cursive'; 
+}
+
+.Playfair-Display {
+    font-family: 'Playfair Display', serif;
+}
+
+.Andika-new-basic {
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.permanent-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/*text styles section*/
+
+.text-panel {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'lobster', 'cursive';
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'lobster', 'cursive';
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'lobster', 'cursive';
+}
+
+/*Adding media query for responsiveness*/
+
+@media (max-width: 800px) {
+    .font-container {
+      flex-direction: column;
+    }
+  }
